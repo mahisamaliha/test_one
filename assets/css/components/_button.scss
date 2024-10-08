@@ -1,0 +1,16 @@
+// Add variables here
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+
+button {
+    border: 0;
+    background: transparent;
+}
+
+
+// RESPONSIVE
+
+@include breakpoint-max(1199px) {
+    
+}
